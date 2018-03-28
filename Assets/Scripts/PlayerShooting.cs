@@ -35,7 +35,6 @@ public class PlayerShooting : NetworkBehaviour {
     private void Start ()
     {
         if(!isLocalPlayer){
-            Destroy(this);
             return;
         }
         m_FireButton = "Fire" + m_PlayerNumber;
@@ -89,5 +88,6 @@ public class PlayerShooting : NetworkBehaviour {
         //m_ShootingAudio.Play ();
 
         m_CurrentLaunchForce = m_MinLaunchForce;
+        Destroy(shellInstance,2);
     }
 }
