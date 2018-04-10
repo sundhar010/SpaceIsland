@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Test/Test.unity
     guid: 87d53d3c73466410c99f77ff256d4dad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 976c60d9d75bb4fb39e46213ed5d87d3
+  - enabled: 0
+    path: Assets/SampleScenes/Scenes/NetworkLobby.unity
+    guid: 3c0d76c55eed6214f9d3b070caede5d3
+  - enabled: 0
+    path: Assets/Scenes/Lobby.unity
+    guid: aec8fdbd67fb4439c9178af4c59864ee
+  - enabled: 1
+    path: Assets/Scenes/NetworkLobby.unity
+    guid: fce1837ac4a334538b98cbf830367079
+  - enabled: 1
+    path: Assets/Scenes/GamePlayMatchmaking.unity
+    guid: 3a942ad6e68e0498d9a0c8e161e2f3c4

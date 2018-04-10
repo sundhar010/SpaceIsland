@@ -42,8 +42,7 @@ public class ProjectileExplosion : MonoBehaviour {
         }
 
         m_ExplosionParticles.transform.parent = null;
-
-        m_ExplosionParticles.Play();
+        m_ExplosionParticles.Play(true);
 
         //m_ExplosionAudio.Play();
 
